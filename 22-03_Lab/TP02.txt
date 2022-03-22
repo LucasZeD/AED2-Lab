@@ -1,0 +1,146 @@
+https://www.geeksforgeeks.org/matcher-pattern-method-in-java-with-examples/?msclkid=4b7dabcea9db11eca61316d6406fdfdd
+----------------------------------------------------------------------------------
+<p class="wrap"><strong>Título original</strong> The Batman</p>
+Remove titulo original
+<p class="wrap"><strong></strong> The Batman</p>
+Remove tags
+	encontra sinal < anda ate > e ignora 
+	<p class="wrap">	<strong></strong> The Batman	</p>
+	<strong>	</strong> The Batman
+	The Batman		<- Result
+----------------------------------------------------------------------------------
+<li><a href="/keyword/849-dc-comics/movie?language=pt-BR">dc comics</a></li>
+
+----------------------------------------------------------------------------------
+Uma das melhores manieras para resolver
+	Ler pub.in, criar array de objetos do tipo filme
+	Depois percorre array imprimindo
+
+	Criar um array de filmes c/ tamanho 200, para depois adicionar os filmes
+		que a questao pedir
+
+	C -> criar structs
+	JAVA -> TP0201.java
+		class Filme {
+			
+		}
+		class ManipularFilmes{
+		}
+		class TP0201{
+			main(){
+				cria vetor
+				adicionar filme
+				...
+		}
+----------------------------------------------------------------------------------
+construtor
+	inicializa os atributos da classe
+----------------------------------------------------------------------------------
+Tipo date
+import java.Util.Date;
+
+private Date datalancamento;
+	SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/aaaa");
+
+
+"15/02/21"
+	|-> Simple Date format -> Date lancamento;
+Date lancamento;
+SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/aaaa");
+lancamento = sdf.parse ("15/02/2021");
+
+----------------------------------------------------------------------------------
+private String palavras/*palavraschave*/[];
+
+----------------------------------------------------------------------------------
+
+usar /tmp/filmes/
+----------------------------------------------------------------------------------
+<p class="wrap"><strong>Título original</strong> The Batman</p>
+Remove titulo original
+<p class="wrap"><strong></strong> The Batman</p>
+Remove tags
+	encontra sinal < anda ate > e ignora 
+	<p class="wrap">	<strong></strong> The Batman	</p>
+	<strong>	</strong> The Batman
+	The Batman		<- Result
+----------------------------------------------------------------------------------
+<li><a href="/keyword/849-dc-comics/movie?language=pt-BR">dc comics</a></li>
+----------------------------------------------------------------------------------
+Uma das melhores manieras para resolver
+	Ler pub.in, criar array de objetos do tipo filme
+	Depois percorre array imprimindo
+
+	Criar um array de filmes c/ tamanho 200, para depois adicionar os filmes
+		que a questao pedir
+
+	C -> criar structs
+	JAVA -> TP0201.java
+		class Filme {
+			
+		}
+		class ManipularFilmes{
+		}
+		class TP0201{
+			main(){
+				cria vetor
+				adicionar filme
+				...
+		}
+	cria funcoes que façam coisas especificas
+		Ler()
+			//meu
+			string = retirar tags(html);
+	Se tem dificuldade para dar nome eh pq esta fazendo muitas coisas
+		
+----------------------------------------------------------------------------------
+Tipo date
+import java.Util.Date;
+
+private Date datalancamento;
+	SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/aaaa");
+----------------------------------------------------------------------------------
+private String palavras/*palavraschave*/[];
+__________________________________________________________________________________
+Q01
+Consideracoes
+	Nivelamento - Un01g
+	Se filme nao possui orçamento considerar 0,00
+Criar um construtor que recebe os parametros e outro que nao recebe
+Criar um metodo clone, imprimir e ler
+Metodo imprimir
+	Retorna String com todos concatenados e separados por espaco
+Metodo ler
+	Entrar no arquivo
+	Percorrer
+	Extrair
+	E colocar em atributos
+In
+	Varias linhas c nome do arquivo ate fim
+		Batman.html
+		Dog.html
+		Luca.html
+		...
+Out
+	Varias linhas cada um com registro contido em uma linha
+		Nome TitOrig Duracao Orcamento ...
+		Batman BatmanII 180 18000000
+		...
+----------------------------------------------------------------------------------
+Q02
+Q01 em C
+----------------------------------------------------------------------------------
+Q03
+----------------------------------------------------------------------------------
+Q04
+----------------------------------------------------------------------------------
+Q05
+----------------------------------------------------------------------------------
+Q06
+----------------------------------------------------------------------------------
+Q07
+----------------------------------------------------------------------------------
+Q08
+
+
+
