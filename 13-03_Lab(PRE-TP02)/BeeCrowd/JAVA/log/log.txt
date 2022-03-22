@@ -1,0 +1,10 @@
+/*ERROS
+Exception in thread "main" java.lang.NumberFormatException: Cannot parse null string 
+        at java.base/java.lang.Integer.parseInt(Integer.java:630)
+        at java.base/java.lang.Integer.parseInt(Integer.java:786)
+        at Main.intReader(Main.java:24)
+        at Main.main(Main.java:53)
+    int esta nulo
+    leitor nao esta lendo
+Resolucao -> refazer leitores
+*/
